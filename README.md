@@ -1,9 +1,5 @@
 # quantum-dose-optimizer
 
-Here’s a full, professional-grade README.md for your Quantum Dose Optimizer (QRx-Synth) application. This version includes setup instructions, feature overview, screenshots placeholder, security notes, and development instructions.
-
-
----
 
 # 🧠 QRx-Synth — Quantum Dose Optimizer
 
@@ -13,11 +9,11 @@ Here’s a full, professional-grade README.md for your Quantum Dose Optimizer (Q
 
 ---
 
-## 🚀 Overview
+# 🚀 Overview
 
 **QRx-Synth** is a standalone, secure, LLM-enhanced application that helps psychiatrists, researchers, and patients optimize daily dosages of **Seroquel (quetiapine)** and **Zoloft (sertraline)** based on unique physiological traits. It integrates **quantum-derived intensity metrics**, **pharmacokinetic models**, and **bio-signal input from webcam or data files**.
 
-### Core Features
+# Core Features
 - 🔗 **5-layer prompt chain** using GPT-4o (custom pharmacometric logic)
 - 🧬 **25-color BioVector** from webcam or synthetic input
 - ⚛️ **7-qubit Pennylane quantum circuit** to tune risk metrics
@@ -28,7 +24,7 @@ Here’s a full, professional-grade README.md for your Quantum Dose Optimizer (Q
 
 ---
 
-## 🧪 Example Use Case
+# 🧪 Example Use Case
 
 A patient (lastname.firstname) on 200mg Seroquel and 25mg Zoloft is experiencing suboptimal symptom control.  
 The clinician uses QRx-Synth to:
@@ -39,17 +35,10 @@ The clinician uses QRx-Synth to:
 4. Receive a **daily dose recommendation** and review schedule
 5. **Export** or review encrypted summaries from the SQLite store
 
----
 
-## 📸 Screenshot (placeholder)
+# ⚙️ Installation
 
-> ![Screenshot Placeholder](https://via.placeholder.com/900x600.png?text=QRx-Synth+GUI+Preview)
-
----
-
-## ⚙️ Installation
-
-### Requirements
+# Requirements
 
 - Python 3.10+
 - Internet connection for OpenAI API
@@ -65,9 +54,9 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python qrx_synth_app.py
-
-Required Python Packages
-
+````
+# Required Python Packages
+```
 openai
 pennylane
 cv2 (opencv-python)
@@ -77,10 +66,10 @@ cryptography
 tkinter (pre-installed with Python)
 httpx
 
-
+```
 ---
 
-🛡️ Security & Privacy
+ # 🛡️ Security & Privacy
 
 ✅ AES-GCM encryption of all settings and patient records
 
@@ -98,20 +87,20 @@ httpx
 
 ---
 
-🧠 Quantum Integration
+# 🧠 Quantum Integration
 
 This app uses a 7-qubit Pennylane quantum circuit to compute a "quantum intensity score" based on the patient's pharmacogenomic vector and environment. This is used to fine-tune the risk curve in simulation.
-
+```
 @qml.qnode(dev)
 def q_intensity7(theta, env):
     ...
-
+```
 Output is averaged across qubits, providing an auxiliary dimension to pharmacometric predictions.
 
 
 ---
 
-🔗 LLM 5-Layer Prompt Chain
+# 🔗 LLM 5-Layer Prompt Chain
 
 The optimization logic passes through the following custom-engineered stages:
 
@@ -130,7 +119,7 @@ All prompts are tightly controlled, deterministic, and do not output narrative p
 
 ---
 
-🧩 File Structure
+ # 🧩 File Structure
 
 qrx-synth/
 │
@@ -144,7 +133,7 @@ qrx-synth/
 
 ---
 
-🧪 Testing
+# 🧪 Testing
 
 Quick tests can be run using the special entry point:
 
@@ -162,7 +151,7 @@ Quantum intensity from synthetic values
 
 ---
 
-🧠 Development Ideas
+# 🧠 Development Ideas
 
 Future releases may support:
 
@@ -182,7 +171,7 @@ Future releases may support:
 
 ---
 
-🙋 FAQ
+# 🙋 FAQ
 
 Q: Is this app FDA approved?
 No. This is a research/clinical prototyping tool. Not for production diagnostics.
@@ -196,7 +185,7 @@ The system will fall back to default values. Encrypted API keys will be lost.
 
 ---
 
-🤝 Acknowledgements
+# 🤝 Acknowledgements
 
 OpenAI
 
@@ -216,19 +205,8 @@ Tkinter UI Toolkit
 
 ---
 
-🧭 License
+# 🧭 License
 
 GPL3 . freedom code by Graylan and GPT4.1 / GPTo3 and gpt4o
 This project is open-source and free to modify for educational, research, or clinical prototyping use.
-
-
----
-
-Let me know if you want:
-- A separate `requirements.txt` file
-- Deployment instructions (e.g., for PyInstaller)
-- A logo or image for the header
-- A GitHub Actions workflow to auto-test releases
-
-This README is ready to copy into a `README.md` file and publish with the repo.
 

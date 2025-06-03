@@ -859,5 +859,5 @@ Tkinter UI Toolkit
 # 🧭 License
 
 GPL3 . freedom code by fr33domdao and Dosh Hams and GPT4.1 / GPTo3 and gpt4o
-This project is open-source and free to modify for educational, research, or clinical prototyping use.
+This project is open-source and free to modify without restrictions. 
 

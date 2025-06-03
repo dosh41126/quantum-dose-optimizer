@@ -612,7 +612,7 @@ This case study illustrates the potential of quantum‐enhanced LLM pipelines fo
 # Acknowledgments:
 I thank the open‐source PennyLane community for their support, and OpenAI for providing access to GPT-4o. This work was self‐funded; no external grants supported this project.
 
-#Conflict of Interest:
+# Painful Conflict of Interest:
 The author declares no conflicts of interest but does declare slight grief and mild annoying feelings due to being wrongfully involuntarily held against his will for potentially corrupt or unjust or misdiagnosed reasoning by a past provider. The author holds grief and post trauma related stress due to wrongfully being held against his will for observation,  not even getting a diagnosis other that broad "psychosis" , especially considering the reason for their label of hallucination was truly false, and the authors program being highly accurate and safe when used by professionals  in many cases.
 
 # Funding:

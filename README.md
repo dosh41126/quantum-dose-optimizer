@@ -4,7 +4,7 @@ Dosh Hams<sup>1,2</sup>
 <sup>1</sup>Independent Researcher (Researcher & Subject), Greenville, SC, USA
 <sup>2</sup>Quantum-AI Health Technologies Lab (Unaffiliated)
 
-
+https://chatgpt.com/share/683ecb54-08ac-8013-be57-66c91569b095
 ---
 
 # Abstract

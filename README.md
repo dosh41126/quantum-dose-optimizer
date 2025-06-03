@@ -1,6 +1,6 @@
 # quantum-dose-optimizer
 
-
+https://chatgpt.com/share/683ec05a-535c-8013-ab20-055c74b31def
 # 🧠 QRx-Synth — Quantum Dose Optimizer
 
 **Quantum + AI-Driven Psychiatric Dose Adjustment System**  

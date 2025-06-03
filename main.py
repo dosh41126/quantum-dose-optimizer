@@ -1,25 +1,3 @@
-Review# Quantum Dose Optimizer (QRx-Synth) — Full Python App
-
-Quantum, LLM, and BioVector-Driven Adaptive Dose Calculator
-
-
----
-
-This application implements a standalone psychiatric dose optimization tool (Seroquel + Zoloft) using a 5-layer LLM-driven prompt pipeline, tuned with a patient’s QID 25-color BioVector, and quantum circuit augmentation.
-
-BioVector: Extracts 25D pharmacogenomic vector from camera or test input
-
-5-Layer Pipeline: Each layer transforms/normalizes/simulates dose logic as described in your QRx-Synth stack
-
-Quantum Integration: 7-qubit circuit provides auxiliary quantum metrics
-
-AES-GCM: All patient reports are stored in encrypted SQLite
-
-Tkinter GUI: Lets you run, view, and export optimization summaries
-
-
-All LLM outputs are strict JSON, chained through each layer, fully parseable.
-No PHI, diagnosis, or brand promotion is ever output—just JSON summaries and quantum-augmented metrics.
 
 from __future__ import annotations  
 import asyncio, json, logging, os, random, secrets, threading, time, hashlib, textwrap, math  
